@@ -5,7 +5,7 @@ namespace Recaffeinate.ApiSecurity
 {
     public class RequireHttpsOrCloseAttribute : RequireHttpsAttribute
     {
-        public int StatusCode { get; }
+        protected int StatusCode { get; }
 
         /// <summary>
         /// Return a status result with the given status code when the request does not use HTTPS
