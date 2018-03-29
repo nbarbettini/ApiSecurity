@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiSecurity", "ApiSecurity\ApiSecurity.csproj", "{DF808F29-825D-4449-A7A6-882F7B5CCBDE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiSecurity.Tests", "ApiSecurity.Tests\ApiSecurity.Tests.csproj", "{57B039FE-4509-4EA8-84B9-31A1A0F45C4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DF808F29-825D-4449-A7A6-882F7B5CCBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF808F29-825D-4449-A7A6-882F7B5CCBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF808F29-825D-4449-A7A6-882F7B5CCBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B039FE-4509-4EA8-84B9-31A1A0F45C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B039FE-4509-4EA8-84B9-31A1A0F45C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B039FE-4509-4EA8-84B9-31A1A0F45C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B039FE-4509-4EA8-84B9-31A1A0F45C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
