@@ -10,4 +10,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.3" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <PackageId>Recaffeinate.ApiSecurity</PackageId>
+    <Description>Helpers for building secure APIs with ASP.NET Core</Description>
+    <RepositoryUrl>https://github.com/nbarbettini/ApiSecurity</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/nbarbettini/ApiSecurity</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/nbarbettini/ApiSecurity/blob/master/LICENSE</PackageLicenseUrl>
+    <Authors>nbarbettini</Authors>
+    <PackageTags>api;security;https</PackageTags>
+  </PropertyGroup>
+
 </Project>
