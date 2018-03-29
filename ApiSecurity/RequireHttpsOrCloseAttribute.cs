@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Recaffeinate.SecureApi
+namespace Recaffeinate.ApiSecurity
 {
-    public class RequireHttpsOrTerminateAttribute : RequireHttpsAttribute
+    public class RequireHttpsOrCloseAttribute : RequireHttpsAttribute
     {
         protected override void HandleNonHttpsRequest(AuthorizationFilterContext filterContext)
         {

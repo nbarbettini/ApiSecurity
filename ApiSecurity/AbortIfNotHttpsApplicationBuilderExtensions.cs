@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace Recaffeinate.SecureApi
+namespace Recaffeinate.ApiSecurity
 {
     public static class AbortIfNotHttpsApplicationBuilderExtensions
     {
